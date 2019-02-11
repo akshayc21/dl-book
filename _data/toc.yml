@@ -22,9 +22,13 @@
 # See the links below for an example.
 
 # Top-level page
-- title: Home
+- title: Introduction
   url: /intro
   not_numbered: true
+
+- title: About This Book
+  url: /about
+  not_numbered: true 
 
 # External link
 - title: GitHub repository
@@ -43,14 +47,31 @@
 - header: Demo textbook
 
 # A chapter w/ a collection of sections beneath it
-- title: Features and customization
-  url: /features/features
+- title: Topic 1
+  url: 
   not_numbered: true
   expand_sections: true
   sections:
-  - title: Markdown files
-    url: /features/markdown
+  - title: Sub Topic 1
+    url: 
     not_numbered: true
-  - title: Jupyter notebooks
-    url: /features/notebooks
+  - title: Sub Topic 2
+    url: 
     not_numbered: true
+
+- title: Topic 2
+  url: 
+  not_numbered: true
+  expand_sections: true
+  sections:
+  - title: Sub Topic 1
+    url: 
+    not_numbered: true
+  - title: Sub Topic 2
+    url: 
+    not_numbered: true
+
+# Divider for meta-pages and content page
+- divider: true
+
+- title: Appendix
